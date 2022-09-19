@@ -1,0 +1,47 @@
+body {
+    background-image: url(images/paper.png);
+}
+
+.content {
+    border:3px solid red;
+    margin-left: 10%;
+    margin-right: 10%;
+    background:rgb(255,255,240);
+}
+
+header {
+    border:3px solid green;
+    margin:3px;
+    text-align: right;
+}
+
+header > h2 {
+    border:3px solid orange;
+}
+
+.entry {
+    border:3px solid lime;
+    margin:3px;
+    background:rgb(236,236,245);
+    padding:15px;
+    margin-top:10px;
+    overflow:auto;
+}
+
+img {
+    float:right;
+}
+
+span{
+    border:3px solid cyan;
+}
+
+/*p {
+    border:thin solid grey
+} */
+
+footer {
+    margin:3px;
+    border:3px solid blue;
+    text-align: center;
+}
